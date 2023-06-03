@@ -8,6 +8,8 @@ let elfData = [];
 });
 
     }
+
+// parse input string into individual elf array
 function perElf(data){
   let buildArray = [];
   let counter = 0
@@ -26,7 +28,7 @@ function perElf(data){
   getHighestCalories();
 
 }
-
+// iterate over all elf arrays and console the largest calorie count with the id of the elf.
 function getHighestCalories(){
     let info = {
       highestCal:0,
@@ -58,7 +60,3 @@ function main(){
 
 main();
 
-  // parse input
-  //
-  //
-  //f

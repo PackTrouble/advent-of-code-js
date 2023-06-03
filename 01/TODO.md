@@ -1,6 +1,10 @@
-# Advent of code day ## 
+# Advent of code day #1
 
 
-Take an input file
-parse input 
-display which elf has the most calories in terms of snack
+- [x] Get input from text file
+
+- [x] Parse the text into an iteriable array
+
+- [x] Calcualte to find which elf has the highest amount of calories in their bag
+
+- [x] Display the number of assocaiated with that elf and the amount of calories they are currently holding in their bag
